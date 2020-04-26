@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible sttributes.
+    // Hover to view descriptions of existing attributes.
+    
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "request": "launch",
+            "type": "cortex-debug",
+            "name": "Cortex Debug Main",
+            "cwd": "${workspaceRoot}",
+            "executable": "${workspaceRoot}/BUILD/NUCLEO_F429ZI/GCC_ARM-DEBUG/IOSpooferFirmware.elf",
+            "serverpath": "/Applications/SEGGER/JLink_V662a/JLinkGDBServerCLExe",
+            "servertype": "jlink",
+            "device": "STM32F429ZI",
+            "interface": "swd",
+            "runToMain": true,
+            "preLaunchTask": null,
+            "svdFile": "${workspaceRoot}/STM32F429.svd"
+        }
+    ]
+}
